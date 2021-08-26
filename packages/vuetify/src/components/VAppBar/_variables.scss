@@ -1,3 +1,5 @@
+@use '../../styles/styles' as *;
+
 $app-bar-background: rgb(var(--v-theme-surface)) !default;
 $app-bar-border-color: $border-color-root !default;
 $app-bar-border-radius: map-get($rounded, '0') !default;

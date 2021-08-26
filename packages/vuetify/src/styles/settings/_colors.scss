@@ -1,4 +1,4 @@
-@import '../tools/_functions.sass';
+@use '../tools/_functions.sass' as *;
 
 $red: () !default;
 $red: map-deep-merge(

@@ -1,4 +1,4 @@
-@import '../tools/_elevation.sass';
+@use '../tools' as *;
 
 $z: 24;
 @while $z >= 0 {

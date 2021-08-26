@@ -1,4 +1,5 @@
-@import '../tools/_functions.sass';
+@use '../tools/_functions.sass' as *;
+@use './colors' as *;
 
 $material-light: () !default;
 $material-light: map-deep-merge(
